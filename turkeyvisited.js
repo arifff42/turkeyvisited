@@ -124,8 +124,8 @@ function downloadMap() {
     ctx.font = "2em Calibri";
     ctx.fillStyle = "black";
     ctx.textAlign = "start";
-    var textWidth = ctx.measureText("ozanyerli.github.io/turkeyvisited");
-    ctx.fillText("ozanyerli.github.io/turkeyvisited", 10, canvas.height - 25);
+    var textWidth = ctx.measureText("arifff42.github.io/turkeyvisited");
+    ctx.fillText("arifff42.github.io/turkeyvisited", 10, canvas.height - 25);
     ctx.fillText(cityCount + "/81", 10, 5);
 
     destCanvas.toBlob(function (blob) {
